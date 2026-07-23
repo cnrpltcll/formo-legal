@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Formo</title>
+  <meta name="description" content="How Formo, a local-first fitness tracker, handles your data." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">F</div>
+      <div class="brand">Formo</div>
+    </header>
+    <a class="back" href="index.html">← Legal</a>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: July 2026</p>
+    <div class="card">
+      <section>
+        <h2>Local-first by design</h2>
+        <p>Formo does not require an account. Your profile, measurements, meals, workouts and
+           progress records are designed to stay on your device.</p>
+      </section>
+      <section>
+        <h2>Camera and photos</h2>
+        <p>Formo asks for camera or photo-library access only when you choose a feature that needs
+           it, such as barcode scanning, meal photos or private progress photos.</p>
+      </section>
+      <section>
+        <h2>Optional AI features</h2>
+        <p>If you choose AI meal photo, the selected image is sent through our Supabase function to
+           OpenAI for analysis. It is not added to your progress gallery or written to Formo tables,
+           and Formo does not send photos in the background. OpenAI API abuse-monitoring logs may
+           retain customer content for up to 30 days by default unless the production project is
+           approved and configured for a reduced-retention control.</p>
+      </section>
+      <section>
+        <h2>Premium purchases</h2>
+        <p>RevenueCat and your app store process Premium purchases. Formo uses an anonymous
+           device-linked customer identifier to verify your entitlement; we do not ask for your
+           name, email address or a Formo account.</p>
+      </section>
+      <section>
+        <h2>Online service data</h2>
+        <p>The AI service records the anonymous customer identifier, request date and daily request
+           count to enforce fair-use limits. Meal photos are not written to the Formo database by
+           the analysis function.</p>
+      </section>
+      <section>
+        <h2>Your control</h2>
+        <p>You can choose which permissions to grant and can change them in your device settings.
+           Removing the app removes locally stored Formo data from the device. App-store purchase
+           records remain subject to the store and RevenueCat retention rules.</p>
+      </section>
+      <section>
+        <h2>Contact</h2>
+        <p>Questions about privacy? Email <a href="mailto:ceerks@gmail.com">ceerks@gmail.com</a>.</p>
+      </section>
+    </div>
+    <footer>© <span id="y"></span> Formo</footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
