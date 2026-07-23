@@ -19,11 +19,12 @@ body {
 .wrap { max-width: 720px; margin: 0 auto; padding: 40px 22px 72px; }
 header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
 .logo {
-  width: 44px; height: 44px; border-radius: 12px;
-  background: var(--accent); color: #fff;
+  width: 52px; height: 52px; border-radius: 14px;
+  background: var(--accent);
   display: flex; align-items: center; justify-content: center;
-  font-weight: 800; font-size: 20px; letter-spacing: -0.5px;
 }
+.logo img { width: 40px; height: 40px; object-fit: contain; display: block; }
+.list-note { color: var(--ink-muted); font-size: 13px; margin: 26px 0 0; }
 .brand { font-weight: 800; font-size: 20px; letter-spacing: -0.4px; }
 h1 { font-size: 30px; letter-spacing: -0.6px; margin: 26px 0 4px; }
 .updated { color: var(--ink-muted); font-size: 13px; margin: 0 0 26px; }
